@@ -1,0 +1,18 @@
+name: Test Job
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the main branch
+  pull_request:
+    branches:
+      - main  # Trigger the workflow on pull requests to the main branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+
+    steps:
+     
+      - name: 23f3000756@ds.study.iitm.ac.in
+        run: echo "Hello, world!"  # Run the echo command
